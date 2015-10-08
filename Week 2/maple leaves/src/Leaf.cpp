@@ -1,10 +1,4 @@
-//
-//  Leaf.cpp
-//  Leaf
-//
-//  Created by Conor Russomanno on 9/10/15.
-//
-//
+
 
 #include "Leaf.h"
 
@@ -24,7 +18,7 @@ void Leaf::setup(){
     stemWidth = ofRandom(3,5);
     rotation = ofRandom(0,360);
     leafColor = ofColor(ofRandom(200,255), ofRandom(80,180), ofRandom(0,20), ofRandom(225,255));
-    stemColor = ofColor(130, 50, 20); //hopefully brown
+    stemColor = ofColor(130, 50, 20);
     scaleFactor = ofRandom(.8, 1);
     
 }
@@ -36,12 +30,7 @@ void Leaf::update(){
 
 //--------------------------------------------------------------
 void Leaf::draw(){
-    //DRAW STUFF
-//    ofRect(xPos, yPos, 20, 40);
-    
-    //Draw leave
-    
-    //draw leaf left
+
     
     ofPushMatrix();
         ofTranslate(xPos, yPos);
@@ -119,7 +108,7 @@ void Leaf::draw(){
         
         ofEndShape();
 
-        //draw leaf right
+    
         ofBeginShape();
     
      x0 = 0;
@@ -189,11 +178,11 @@ void Leaf::draw(){
     
         ofEndShape();
     
-        //draw stem
+    
         ofSetColor(stemColor);
         ofRect(0, 0 + stemLength/2, stemWidth, stemLength);
     
-        //triangular stem through leaf
+    
         ofTriangle(0 - stemWidth/2, 0 + stemLength, 0 + stemWidth/2, 0 + stemLength, 0, 0 + stemLength + 2*(leafLength/3));
     
     

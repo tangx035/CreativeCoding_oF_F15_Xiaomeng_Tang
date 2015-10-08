@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30EE76FF-6D0D-4993-9A49-5CE7D83E3833</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Branches</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>175FF2B7826296403E94735CB7FC55804CDA035B</key>
+		<string>https://github.com/tangx035/CreativeCoding_oF_F15_Xiaomeng_Tang.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week 4/Branches/Branches.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>175FF2B7826296403E94735CB7FC55804CDA035B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tangx035/CreativeCoding_oF_F15_Xiaomeng_Tang.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>175FF2B7826296403E94735CB7FC55804CDA035B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>175FF2B7826296403E94735CB7FC55804CDA035B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CreativeCoding_oF_F15_Xiaomeng_Tang</string>
+		</dict>
+	</array>
+</dict>
+</plist>

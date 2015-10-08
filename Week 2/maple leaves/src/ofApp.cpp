@@ -9,8 +9,8 @@ void ofApp::setup(){
         leaves.push_back(tempLeaf);
     }
     ofSetRectMode(OF_RECTMODE_CENTER);
-    ofEnableSmoothing(); //let's make it smoooooooth.
-    ofEnableAlphaBlending(); //transparency
+    ofEnableSmoothing();
+    ofEnableAlphaBlending();
 }
 
 //--------------------------------------------------------------

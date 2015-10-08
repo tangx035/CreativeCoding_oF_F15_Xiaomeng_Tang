@@ -1,10 +1,4 @@
-//
-//  Leaf.h
-//  Leaf
-//
-//  Created by Conor Russomanno on 9/10/15.
-//
-//
+
 
 #ifndef __Leaf__Leaf__
 #define __Leaf__Leaf__
@@ -21,13 +15,13 @@ public:
     
 private:
     
-    //LEAFE VARIABLES
-    float xPos, yPos; //position
-    float leafLength, leafWidth;//leaf length/width
-    float stemLength, stemWidth; //stem
-    float rotation; //rotation
-    ofColor stemColor, leafColor; //color
-    float scaleFactor; //scale
+   
+    float xPos, yPos;
+    float leafLength, leafWidth;
+    float stemLength, stemWidth;
+    float rotation;
+    ofColor stemColor, leafColor;
+    float scaleFactor;
     
 };
 
